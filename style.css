@@ -22,8 +22,42 @@ html {
     --active-icon-color: #2ae7e7;
 }
 
-body {
+/* End of Common Styles */
+
+/* Sidebar Menu */
+
+.sidebar {
+    width: 15vw;
+    height: 100vh;
     background-color: var(--main-bg-color);
+    position: fixed;
 }
 
-/* End of Common Styles */
+/* End of Sidebar Menu */
+
+/* Main Section */
+
+.main-section {
+    width: 85vw;
+    position: relative;
+    left: 15vw;
+}
+
+.header {
+    width: inherit;
+    height: 100vh;
+    background: linear-gradient(rgba(255, 255, 255, .3), rgba(255, 255, 255, .5)), url(./images/bg.png) center no-repeat;
+    background-size: cover;
+}
+
+.heading {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12rem;
+    color: #fff;
+    letter-spacing: 1rem;
+}
+
+/* End of Main Section */
