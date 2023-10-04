@@ -1,0 +1,29 @@
+/* Common Styles */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Slabo 27px', serif;
+    outline: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --main-bg-color: #2e2e2e;
+    --primary-color: #524d4d;
+    --secondary-color: #777171;
+    --text-color: #9c9393;
+    --hover-color: #bdb8b8;
+    --active-icon-color: #2ae7e7;
+}
+
+body {
+    background-color: var(--main-bg-color);
+}
+
+/* End of Common Styles */
