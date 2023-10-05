@@ -91,6 +91,77 @@ html {
     color: var(--secondary-color);
 }
 
+.nav-list {
+    margin-top: 3rem;
+}
+
+.nav-item {
+    margin: 2rem 0;
+}
+
+.nav-link {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+}
+
+.nav-link-text {
+    font-size: 1.8rem;
+    padding-left: 1rem;
+    flex-grow: 1;
+}
+
+.nav-link i:first-child {
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .2rem;
+    border-radius: .3rem;
+    transition: color .2s;
+}
+
+.nav-link:hover i:first-child {
+    color: var(--active-icon-color);
+}
+
+.nav-link i:last-child {
+    margin-right: 2.5rem;
+    font-size: 1.6rem;
+}
+
+.sub-nav-list {
+    width: 90%;
+    margin-left: auto;
+}
+
+.sub-nav-item {
+    margin: .5rem 0;
+}
+
+.sub-nav-link {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    transition: color .2s;
+}
+
+.sub-nav-link:hover {
+    color: var(--hover-color);
+}
+
+.sub-nav-link i {
+    font-size: 1rem;
+    margin-right: .5rem;
+    transition: color .2s;
+}
+
+.sub-nav-link:hover i {
+    color: var(--active-icon-color);
+}
+
 /* End of Sidebar Menu */
 
 /* Main Section */
