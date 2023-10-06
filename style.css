@@ -32,6 +32,13 @@ html {
     background-color: var(--main-bg-color);
     position: fixed;
     padding: 1.5rem 1rem;
+    left: -15vw;
+    z-index: 100;
+    transition: left .2s;
+}
+
+.change .sidebar {
+    left: 0;
 }
 
 /* Hamburger Menu */
@@ -39,10 +46,17 @@ html {
 .hamburger-menu {
     width: 3.5rem;
     height: 3.5rem;
+    background-color: var(--main-bg-color);
+    border-bottom-right-radius: 1rem;
     position: absolute;
-    right: 0;
+    right: -3.5rem;
     top: 0;
     padding: .5rem;
+    transition: right .3s .3s;
+}
+
+.change .hamburger-menu {
+    right: 0;
 }
 
 .line {
@@ -271,8 +285,14 @@ html {
 /* Main Section */
 
 .main-section {
-    width: 85vw;
+    width: 100vw;
     position: relative;
+    left: 0vw;
+    transition: all .2s;
+}
+
+.change .main-section {
+    width: 85vw;
     left: 15vw;
 }
 
