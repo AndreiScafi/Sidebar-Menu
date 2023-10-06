@@ -34,6 +34,54 @@ html {
     padding: 1.5rem 1rem;
 }
 
+/* Hamburger Menu */
+
+.hamburger-menu {
+    width: 3.5rem;
+    height: 3.5rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: .5rem;
+}
+
+.line {
+    width: 2.5rem;
+    height: .3rem;
+    background-color: var(--secondary-color);
+    position: absolute;
+    transform-origin: left;
+}
+
+.line-1 {
+    top: 1.2rem;
+}
+
+.line-2 {
+    top: 1.8rem;
+}
+
+.line-3 {
+    top: 2.4rem;
+}
+
+.line-1 {
+    top: 2.4rem;
+    transform: rotate(-40deg) translateY(.3rem);
+}
+
+.line-2 {
+    opacity: 0;
+}
+
+.line-3 {
+    top: 1.2rem;
+    transform: rotate(40deg) translateY(-.3rem);
+}
+
+
+/* End of Hamburger Menu */
+
 .card {
     display: flex;
 }
