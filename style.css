@@ -51,6 +51,7 @@ html {
     background-color: var(--secondary-color);
     position: absolute;
     transform-origin: left;
+    transition: all .2s;
 }
 
 .line-1 {
@@ -65,16 +66,16 @@ html {
     top: 2.4rem;
 }
 
-.line-1 {
+.change .line-1 {
     top: 2.4rem;
     transform: rotate(-40deg) translateY(.3rem);
 }
 
-.line-2 {
+.change .line-2 {
     opacity: 0;
 }
 
-.line-3 {
+.change .line-3 {
     top: 1.2rem;
     transform: rotate(40deg) translateY(-.3rem);
 }
