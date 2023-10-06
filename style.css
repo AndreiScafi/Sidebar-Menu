@@ -169,6 +169,7 @@ html {
     display: flex;
     align-items: center;
     color: var(--text-color);
+    transition: color .2s;
 }
 
 .nav-link-text {
@@ -189,7 +190,12 @@ html {
     transition: color .2s;
 }
 
+
 .nav-link:hover i:first-child {
+    color: var(--active-icon-color);
+}
+
+.active.nav-link i:first-child {
     color: var(--active-icon-color);
 }
 
@@ -201,6 +207,11 @@ html {
 .sub-nav-list {
     width: 90%;
     margin-left: auto;
+    display: none;
+}
+
+.active.sub-nav-list {
+    display: block;
 }
 
 .sub-nav-item {
