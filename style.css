@@ -207,11 +207,13 @@ html {
 .sub-nav-list {
     width: 90%;
     margin-left: auto;
-    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .5s;
 }
 
 .active.sub-nav-list {
-    display: block;
+    max-height: 10rem;
 }
 
 .sub-nav-item {
