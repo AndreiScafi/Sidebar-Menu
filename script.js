@@ -1,9 +1,9 @@
 /* Hamburger Menu */
-const sidebar = document.querySelector('.sidebar');
+const container = document.querySelector('.container');
 const hamburgerMenu = document.querySelector('.hamburger-menu');
 
 hamburgerMenu.addEventListener('click', () => {
-    sidebar.classList.toggle('change');
+    container.classList.toggle('change');
 })
 
 /* End of Hamburger Menu */
