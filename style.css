@@ -332,3 +332,78 @@ html {
 }
 
 /* End of Main Section */
+
+/* Responsive */
+@media (max-width: 1500px) {
+    .sidebar {
+        width: 20vw;
+        left: -20vw;
+    }
+
+    .change .main-section {
+        left: 20vw;
+        width: 80vw;
+    }
+}
+
+@media (max-width: 1200px) {
+    .sidebar {
+        width: 25vw;
+        left: -25vw;
+    }
+
+    .change .main-section {
+        left: 25vw;
+        width: 75vw;
+    }
+}
+
+@media (max-width: 900px) {
+    .sidebar {
+        width: 30vw;
+        left: -30vw;
+    }
+
+    .change .main-section {
+        left: 30vw;
+        width: 70vw;
+    }
+
+    .heading {
+        font-size: 10rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .sidebar {
+        width: 50vw;
+        left: -50vw;
+    }
+
+    .change .main-section {
+        left: 50vw;
+        width: 50vw;
+    }
+
+    .heading {
+        display: none;
+    }
+}
+
+@media (max-width: 400px) {
+    .sidebar {
+        width: 100vw;
+        left: -100vw;
+    }
+
+    .change .main-section {
+        left: 100vw;
+        width: 0;
+    }
+
+    .heading {
+        display: none;
+    }
+}
+
+/* End of Responsive */
